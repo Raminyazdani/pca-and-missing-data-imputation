@@ -1,0 +1,18 @@
+Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(setup): Initial commit: Create README
+
+Start the repository with the essential documentation file. This follows the 
+typical pattern of creating the project README first to define the project 
+scope and goals before adding any other files.
+
+Contents:
+- README.md (basic project description with placeholder sections)
+- requirements.txt (empty placeholder file)
+
+Project overview:
+- Defines PCA and missing data imputation as main goals
+- Lists planned tech stack (Python, NumPy, scikit-learn)
+- Provides basic folder structure outline
+
+Verified:
+- README provides initial project overview
+- File structure is clean and minimal
