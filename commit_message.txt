@@ -1,19 +1,23 @@
-Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(setup): Add .gitignore for Python and Jupyter artifacts
+Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(data): Add PCA demonstration dataset
 
-Add .gitignore to exclude Python cache files, Jupyter checkpoints, virtual 
-environments, and IDE configuration files. This ensures the repository stays 
-clean and only tracks source code and essential files.
+Add the PCA toy dataset which will be used to demonstrate Principal Component 
+Analysis. This small dataset with 4 features allows for clear visualization 
+of dimensionality reduction.
 
 Contents added:
-- .gitignore (Python, Jupyter, IDE, OS file patterns)
+- data/pca_toy.txt (PCA demonstration dataset, tab-separated)
 
-Patterns covered:
-- Python bytecode (__pycache__/, *.pyc, *.pyo)
-- Jupyter checkpoints (.ipynb_checkpoints/)
-- Virtual environments (venv/, env/, .venv/)
-- IDE files (.vscode/, .idea/, *.swp)
-- OS files (.DS_Store, Thumbs.db)
+Dataset characteristics:
+- Small dataset suitable for PCA demonstration
+- Tab-separated format for easy parsing
+- 4 features allowing visualization of dimensionality reduction
+- Clean data without missing values
+
+Purpose:
+- Demonstrate PCA implementation from scratch
+- Validate eigendecomposition approach
+- Visualize principal components
 
 Verified:
-- .gitignore rules will exclude common development artifacts
-- Pattern syntax is correct for Git
+- File is properly formatted and readable
+- Dataset size is appropriate for demonstration
