@@ -20,6 +20,16 @@ This project implements:
 pip install requirements.txt
 ```
 
+## How to Run
+
+Launch Jupyter from the repository root:
+
+```bash
+jupyter notebook
+```
+
+Then open `code/pca_implementation.ipynb`.
+
 ## Structure
 
 ```
@@ -30,6 +40,7 @@ pca-and-missing-data-imputation/
 └── README.md         # This file
 ```
 
-## Status
+## Outputs
 
-Project under development.
+- PCA scatter plots
+- Variance explained by principal components

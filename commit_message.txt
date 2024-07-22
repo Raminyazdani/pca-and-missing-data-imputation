@@ -1,24 +1,27 @@
-Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(data): Add mass spectrometry dataset with missing values
+Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(pca): Implement basic PCA algorithm
 
-Add the mass spectrometry toy dataset which contains missing values marked as 
-"NA". This dataset will be used to demonstrate and compare various missing data 
-imputation strategies.
+Create notebook implementing Principal Component Analysis from scratch using 
+eigendecomposition. Includes data loading, standardization, covariance matrix 
+computation, and eigenvalue decomposition.
+
+⚠️ OOPS - Bug Introduced: The README was updated but contains an error in the 
+pip install command (missing the `-r` flag).
 
 Contents added:
-- data/ms_toy.txt (mass spectrometry dataset with missing values)
+- code/pca_implementation.ipynb (basic PCA implementation)
+- README.md updated with instructions (contains bug)
 
-Dataset characteristics:
-- Contains missing values marked as "NA"
-- Tab-separated format
-- Suitable size for imputation algorithm development
-- Realistic biological data structure
+Implementation includes:
+- Data loading from pca_toy.txt
+- Data standardization (zero mean, unit variance)
+- Covariance matrix computation
+- Eigenvalue and eigenvector calculation
+- Basic principal component extraction
 
-Purpose:
-- Demonstrate distribution-based imputation methods
-- Test k-Nearest Neighbor imputation
-- Compare imputation strategy performance
-- Evaluate imputation quality metrics
+Known issue:
+- README shows `pip install requirements.txt` instead of `pip install -r requirements.txt`
+- This will be fixed in next commit
 
 Verified:
-- File is properly formatted with consistent NA markers
-- Dataset has sufficient missing values for testing
+- PCA algorithm executes correctly
+- Eigenvalues and eigenvectors computed properly
