@@ -1,18 +1,20 @@
-Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(setup): Initial commit: Create README
+Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(setup): Add Python dependencies
 
-Start the repository with the essential documentation file. This follows the 
-typical pattern of creating the project README first to define the project 
-scope and goals before adding any other files.
+Add requirements.txt with the core dependencies needed for the project: NumPy 
+for numerical computing, Pandas for data manipulation, Matplotlib for 
+visualization, scikit-learn for ML algorithms, and Jupyter for interactive 
+notebooks.
 
-Contents:
-- README.md (basic project description with placeholder sections)
-- requirements.txt (empty placeholder file)
+Contents added:
+- requirements.txt (numpy, pandas, matplotlib, scikit-learn, jupyter)
 
-Project overview:
-- Defines PCA and missing data imputation as main goals
-- Lists planned tech stack (Python, NumPy, scikit-learn)
-- Provides basic folder structure outline
+Dependencies specified:
+- numpy>=1.21.0 (numerical computations)
+- pandas>=1.3.0 (data structures and analysis)
+- matplotlib>=3.3.0 (visualization)
+- scikit-learn>=1.0.0 (ML algorithms including PCA)
+- jupyter>=1.0.0 (interactive notebooks)
 
 Verified:
-- README provides initial project overview
-- File structure is clean and minimal
+- All dependencies are compatible versions
+- Requirements cover all planned functionality
