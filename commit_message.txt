@@ -1,23 +1,24 @@
-Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(data): Add PCA demonstration dataset
+Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(data): Add mass spectrometry dataset with missing values
 
-Add the PCA toy dataset which will be used to demonstrate Principal Component 
-Analysis. This small dataset with 4 features allows for clear visualization 
-of dimensionality reduction.
+Add the mass spectrometry toy dataset which contains missing values marked as 
+"NA". This dataset will be used to demonstrate and compare various missing data 
+imputation strategies.
 
 Contents added:
-- data/pca_toy.txt (PCA demonstration dataset, tab-separated)
+- data/ms_toy.txt (mass spectrometry dataset with missing values)
 
 Dataset characteristics:
-- Small dataset suitable for PCA demonstration
-- Tab-separated format for easy parsing
-- 4 features allowing visualization of dimensionality reduction
-- Clean data without missing values
+- Contains missing values marked as "NA"
+- Tab-separated format
+- Suitable size for imputation algorithm development
+- Realistic biological data structure
 
 Purpose:
-- Demonstrate PCA implementation from scratch
-- Validate eigendecomposition approach
-- Visualize principal components
+- Demonstrate distribution-based imputation methods
+- Test k-Nearest Neighbor imputation
+- Compare imputation strategy performance
+- Evaluate imputation quality metrics
 
 Verified:
-- File is properly formatted and readable
-- Dataset size is appropriate for demonstration
+- File is properly formatted with consistent NA markers
+- Dataset has sufficient missing values for testing
