@@ -1,29 +1,24 @@
-Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(pca): Add PCA visualizations and variance analysis
+Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(docs): Fix pip install command in README
 
-Enhance PCA notebook with visualization of principal components and variance 
-explained analysis. Add scatter plots showing data projected onto first two 
-principal components.
+Correct the installation instruction in README - the pip install command was 
+missing the `-r` flag, which would cause installation to fail. Changed from 
+`pip install requirements.txt` to `pip install -r requirements.txt`.
 
-⚠️ Bug still present: README still contains the incorrect pip install command.
+🔧 HOTFIX: This fixes the bug introduced in steps 06-07.
 
-Enhancements added:
-- Scatter plot of PC1 vs PC2
-- Variance explained by each component
-- Cumulative variance plot
-- Component loadings visualization
+Changes:
+- README.md: Fixed pip command from `pip install requirements.txt` to 
+  `pip install -r requirements.txt`
 
-Visualization features:
-- Color-coded data points in PC space
-- Axis labels showing variance percentages
-- Clean, publication-quality plots
-- Matplotlib styling for consistency
+What was wrong:
+- Without the `-r` flag, pip interprets "requirements.txt" as a package name
+- This would fail with "ERROR: Could not find a version that satisfies the requirement"
+- Users would be unable to install dependencies
 
-Implementation improvements:
-- Added plotting functions
-- Calculated explained variance ratios
-- Generated interpretable visualizations
+How fixed:
+- Added the `-r` flag to correctly specify a requirements file
+- Installation command now works as documented
 
 Verified:
-- Plots render correctly
-- Variance calculations are accurate
-- Visualizations are informative
+- Tested the corrected command in a clean virtual environment
+- All dependencies install successfully without errors
