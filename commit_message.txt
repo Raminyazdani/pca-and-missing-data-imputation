@@ -1,27 +1,28 @@
-Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(imputation): Add median imputation method
+Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(imputation): Add distribution-based sampling imputation
 
-Extend the imputation notebook with median imputation as an alternative to mean 
-imputation. Median is more robust to outliers and can provide better results 
-for skewed distributions.
+Complete the distribution-based imputation notebook by adding probabilistic 
+sampling from observed value distributions. This approach better preserves the 
+original data distribution compared to mean/median imputation.
 
 Enhancements added:
-- Median imputation implementation
-- Side-by-side comparison with mean imputation
-- Evaluation metrics for both methods
+- Distribution-based imputation using random sampling
+- Parameter sensitivity analysis with multiple random seeds
+- Comprehensive evaluation metrics across all three methods
+- Visualization of imputation quality
 
-Median imputation features:
-- Robust to outliers in the data
-- Better for non-normal distributions
-- Simple and interpretable
-- Comparison metrics vs. mean approach
+Distribution sampling features:
+- Samples from empirical distribution of observed values
+- Preserves variance and distribution shape
+- Includes randomness for realistic imputation
+- Parameter sweep for sensitivity analysis
 
-Implementation details:
-- Column-wise median calculation
-- Missing value replacement
-- Quality metric computation
-- Comparative analysis added
+Analysis additions:
+- Histograms comparing imputed vs. original distributions
+- Parameter sweep visualizations
+- CSV output with detailed metrics
+- Statistical comparison of all methods
 
 Verified:
-- Median calculations are correct
-- Comparison shows differences between methods
-- Both methods execute successfully
+- Distribution sampling preserves data characteristics
+- Parameter sensitivity appropriately tested
+- All three methods (mean, median, distribution) work correctly
