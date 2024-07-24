@@ -1,26 +1,27 @@
-Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(imputation): Implement mean imputation method
+Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(imputation): Add median imputation method
 
-Start the missing data imputation notebook with the simplest approach: mean 
-imputation. Replace missing values with the column mean, providing a baseline 
-for comparison with more sophisticated methods.
+Extend the imputation notebook with median imputation as an alternative to mean 
+imputation. Median is more robust to outliers and can provide better results 
+for skewed distributions.
 
-Contents added:
-- code/missing_data_imputation.ipynb (initial version with mean imputation)
+Enhancements added:
+- Median imputation implementation
+- Side-by-side comparison with mean imputation
+- Evaluation metrics for both methods
 
-Implementation includes:
-- Data loading from ms_toy.txt with NA handling
-- Missing value identification
-- Column-wise mean calculation (excluding NAs)
-- Missing value replacement with means
-- Basic quality metrics (RMSE, MAE)
+Median imputation features:
+- Robust to outliers in the data
+- Better for non-normal distributions
+- Simple and interpretable
+- Comparison metrics vs. mean approach
 
-Mean imputation approach:
-- Fast and simple computation
-- Preserves column means
-- Does not preserve variance
-- Serves as baseline for comparison
+Implementation details:
+- Column-wise median calculation
+- Missing value replacement
+- Quality metric computation
+- Comparative analysis added
 
 Verified:
-- Missing values correctly identified
-- Mean calculations exclude NA values
-- Imputation executes without errors
+- Median calculations are correct
+- Comparison shows differences between methods
+- Both methods execute successfully
