@@ -1,24 +1,26 @@
-Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(docs): Fix pip install command in README
+Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(imputation): Implement mean imputation method
 
-Correct the installation instruction in README - the pip install command was 
-missing the `-r` flag, which would cause installation to fail. Changed from 
-`pip install requirements.txt` to `pip install -r requirements.txt`.
+Start the missing data imputation notebook with the simplest approach: mean 
+imputation. Replace missing values with the column mean, providing a baseline 
+for comparison with more sophisticated methods.
 
-🔧 HOTFIX: This fixes the bug introduced in steps 06-07.
+Contents added:
+- code/missing_data_imputation.ipynb (initial version with mean imputation)
 
-Changes:
-- README.md: Fixed pip command from `pip install requirements.txt` to 
-  `pip install -r requirements.txt`
+Implementation includes:
+- Data loading from ms_toy.txt with NA handling
+- Missing value identification
+- Column-wise mean calculation (excluding NAs)
+- Missing value replacement with means
+- Basic quality metrics (RMSE, MAE)
 
-What was wrong:
-- Without the `-r` flag, pip interprets "requirements.txt" as a package name
-- This would fail with "ERROR: Could not find a version that satisfies the requirement"
-- Users would be unable to install dependencies
-
-How fixed:
-- Added the `-r` flag to correctly specify a requirements file
-- Installation command now works as documented
+Mean imputation approach:
+- Fast and simple computation
+- Preserves column means
+- Does not preserve variance
+- Serves as baseline for comparison
 
 Verified:
-- Tested the corrected command in a clean virtual environment
-- All dependencies install successfully without errors
+- Missing values correctly identified
+- Mean calculations exclude NA values
+- Imputation executes without errors
