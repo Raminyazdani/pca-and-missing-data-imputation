@@ -1,28 +1,26 @@
-Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(imputation): Add distribution-based sampling imputation
+Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(imputation): Implement basic k-Nearest Neighbor imputation
 
-Complete the distribution-based imputation notebook by adding probabilistic 
-sampling from observed value distributions. This approach better preserves the 
-original data distribution compared to mean/median imputation.
+Start the kNN imputation notebook with core algorithm implementation. The kNN 
+method estimates missing values based on the k most similar samples in the 
+feature space, providing a more sophisticated alternative to distribution methods.
 
-Enhancements added:
-- Distribution-based imputation using random sampling
-- Parameter sensitivity analysis with multiple random seeds
-- Comprehensive evaluation metrics across all three methods
-- Visualization of imputation quality
+Contents added:
+- code/knn_imputation.ipynb (kNN implementation - initial version)
 
-Distribution sampling features:
-- Samples from empirical distribution of observed values
-- Preserves variance and distribution shape
-- Includes randomness for realistic imputation
-- Parameter sweep for sensitivity analysis
+Implementation includes:
+- k-Nearest Neighbor imputation algorithm
+- Distance-based similarity computation using Euclidean distance
+- Weighted averaging of k nearest neighbors
+- Parameter tuning for optimal k value
+- Basic imputation quality metrics
 
-Analysis additions:
-- Histograms comparing imputed vs. original distributions
-- Parameter sweep visualizations
-- CSV output with detailed metrics
-- Statistical comparison of all methods
+Key algorithm details:
+- Finds k most similar samples for each missing value
+- Uses Euclidean distance in feature space
+- Implements weighted averaging based on distance
+- Handles missing values by using only complete features
 
 Verified:
-- Distribution sampling preserves data characteristics
-- Parameter sensitivity appropriately tested
-- All three methods (mean, median, distribution) work correctly
+- kNN algorithm executes correctly
+- Distance calculations are accurate
+- Missing values imputed based on similar samples
