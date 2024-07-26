@@ -1,26 +1,28 @@
-Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(imputation): Implement basic k-Nearest Neighbor imputation
+Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(imputation): Add kNN vs distribution method comparison
 
-Start the kNN imputation notebook with core algorithm implementation. The kNN 
-method estimates missing values based on the k most similar samples in the 
-feature space, providing a more sophisticated alternative to distribution methods.
+Enhance the kNN notebook with detailed comparison against distribution-based 
+methods. This provides quantitative evidence for when kNN performs better than 
+simpler approaches.
 
-Contents added:
-- code/knn_imputation.ipynb (kNN implementation - initial version)
+Enhancements added:
+- Comprehensive comparison section between kNN and distribution methods
+- Side-by-side metric evaluation (RMSE, MAE)
+- Performance analysis across different k values
+- Method selection guidance
 
-Implementation includes:
-- k-Nearest Neighbor imputation algorithm
-- Distance-based similarity computation using Euclidean distance
-- Weighted averaging of k nearest neighbors
-- Parameter tuning for optimal k value
-- Basic imputation quality metrics
+Comparison features:
+- Direct metric comparison (kNN vs. mean/median/distribution)
+- Statistical significance testing
+- Parameter sensitivity for k values
+- Computational complexity analysis
 
-Key algorithm details:
-- Finds k most similar samples for each missing value
-- Uses Euclidean distance in feature space
-- Implements weighted averaging based on distance
-- Handles missing values by using only complete features
+Analysis additions:
+- Tabular comparison of all methods
+- Best-case scenarios for each method
+- Recommendations for method selection
+- Discussion of trade-offs
 
 Verified:
-- kNN algorithm executes correctly
-- Distance calculations are accurate
-- Missing values imputed based on similar samples
+- Comparison metrics are accurate and fair
+- Statistical tests execute properly
+- Analysis provides actionable insights
