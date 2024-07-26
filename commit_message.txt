@@ -1,28 +1,30 @@
-Ramin Yazdani | PCA and Missing Data Imputation | main | feat(results): Generate and commit all analysis results
+Ramin Yazdani | PCA and Missing Data Imputation | main | WIP(docs): Enhance README with structured documentation
 
-Run all three notebooks to generate the complete set of outputs including PCA 
-scatter plots, imputation quality histograms, parameter sweep visualizations, 
-and metric CSV files. These outputs demonstrate the analyses and provide 
-reproducible results for portfolio presentation.
+Significant enhancement of the README with better structure including detailed 
+folder organization, clear setup instructions, and data descriptions. This 
+improves usability but needs further refinement for portfolio presentation.
 
-Contents added to code/results/:
-- pca_scatter_pc1_pc2.png (PCA visualization)
-- ctrl1_imputation_hist.png (distribution imputation quality)
-- ctrl1_imputation_sweep.png (parameter sweep results)
-- ctrl1_knn_imputation_hist.png (kNN imputation quality)
-- ctrl1_metrics_distribution.csv (distribution method metrics)
-- ctrl1_metrics_knn.csv (kNN method metrics)
-- ctrl1_metrics_summary_min.csv (summary comparison)
+Changes to README.md:
+- Added detailed folder structure with file descriptions
+- Enhanced setup instructions with dependency purposes
+- Added data file descriptions (format, content)
+- Documented basic output files
+- Improved code examples and usage instructions
 
-Generated outputs demonstrate:
-- PCA successfully reduces dimensionality while preserving variance
-- All imputation methods handle missing data effectively
-- kNN provides competitive performance vs. distribution methods
-- Parameter choices significantly impact imputation quality
-- Results are fully reproducible from the notebooks
+Documentation improvements:
+- Clear tech stack listing
+- Step-by-step installation process
+- Basic run instructions
+- Input file specifications
+- Output overview
+
+Still needs:
+- More comprehensive output documentation
+- Troubleshooting section
+- Reproducibility notes
+- Professional polish
 
 Verified:
-- All plots are high quality and publication-ready
-- CSV files contain complete metrics for all methods
-- Results match notebook calculations exactly
-- All outputs are properly formatted
+- Instructions tested and work correctly
+- Links and paths are accurate
+- Structure is clear and logical
