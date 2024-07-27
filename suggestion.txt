@@ -1,0 +1,22 @@
+TYPE	FILE	LOCATOR	BEFORE_SNIPPET	PROPOSED_CHANGE	RATIONALE	STATUS
+TRACE	code/assignment_1_1_1.ipynb	cell[0] (markdown)	# Processing of Biological Data\n**Prof. Dr. Volkhard Helms**\n**Tutor:** Hanah Robertson	Remove professor/tutor names and academic header	Academic attribution not appropriate for portfolio project_identity.md	STATUS=APPLIED
+TRACE	code/assignment_1_1_1.ipynb	cell[1] (markdown)	# Assignment 1.1 – Principal Component Analysis	Rename to professional title like "# PCA Implementation and Analysis"	Remove "Assignment" language	STATUS=APPLIED
+TRACE	code/assignment_1_1_1.ipynb	cell[18] (markdown)	# answers for Exercise 1.1 (PCA)	Rename to "# Results and Analysis"	Remove "Exercise" and "answers" language	STATUS=APPLIED
+TRACE	code/assignment_1_1_2.ipynb	cell[0] (markdown)	# Processing of Biological Data\n**Prof. Dr. Volkhard Helms**\n**Tutor:** Hanah Robertson	Remove professor/tutor names and academic header	Academic attribution not appropriate for portfolio project_identity.md	STATUS=APPLIED
+TRACE	code/assignment_1_1_2.ipynb	cell[1] (markdown)	# Assignment 1.2 – Data Imputation	Rename to "# Missing Data Imputation Methods"	Remove "Assignment" language	STATUS=APPLIED
+TRACE	code/assignment_1_1_2.ipynb	cell[12] (markdown)	The questions from the assignment:	Remove or rephrase to "Parameter sensitivity analysis:"	Remove "assignment" language	STATUS=APPLIED
+TRACE	code/assignment_1_1_2.ipynb	cell[14] (markdown)	# answers for Exercise 1.2 (Data Imputation) — Discussion	Rename to "# Results and Discussion"	Remove "Exercise" and "answers" language	STATUS=APPLIED
+TRACE	code/assignment_1_2.ipynb	cell[0] (markdown)	# Processing of Biological Data\n**Prof. Dr. Volkhard Helms**\n**Tutor:** Hanah Robertson	Remove professor/tutor names and academic header	Academic attribution not appropriate for portfolio project_identity.md	STATUS=APPLIED
+TRACE	code/assignment_1_2.ipynb	cell[1] (markdown)	# Assignment – k-Nearest Neighbor (kNN) Imputation	Rename to "# k-Nearest Neighbor (kNN) Imputation"	Remove "Assignment" language	STATUS=APPLIED
+TRACE	code/assignment_1_2.ipynb	cell[13] (markdown)	# answers for Exercise 1.2 — kNN vs Distribution: Comparison	Rename to "# kNN vs Distribution-Based Imputation: Comparison"	Remove "Exercise" and "answers" language	STATUS=APPLIED
+RENAME	code/assignment_1_1_1.ipynb	filename	assignment_1_1_1.ipynb	pca_implementation.ipynb	Remove "assignment" prefix, use descriptive professional name	STATUS=APPLIED
+RENAME	code/assignment_1_1_2.ipynb	filename	assignment_1_1_2.ipynb	missing_data_imputation.ipynb	Remove "assignment" prefix, use descriptive professional name	STATUS=APPLIED
+RENAME	code/assignment_1_2.ipynb	filename	assignment_1_2.ipynb	knn_imputation.ipynb	Remove "assignment" prefix, use descriptive professional name	STATUS=APPLIED
+PATH	code/assignment_1_1_1.ipynb	cell[5] (code) line 1	input_file_pca = "../data/pca_toy.txt"	Use pathlib for robust path handling	Relative paths work but could be more robust	STATUS=NOT_APPLIED - Current relative paths work correctly and are documented; no need to add pathlib complexity
+PATH	code/assignment_1_1_2.ipynb	cell[5] (code) line 1	input_file_ms = "../data/ms_toy.txt"	Use pathlib for robust path handling	Relative paths work but could be more robust	STATUS=NOT_APPLIED - Current relative paths work correctly and are documented; no need to add pathlib complexity
+PATH	code/assignment_1_2.ipynb	cell[5] (code) line 1	input_file_ms = "../data/ms_toy.txt"	Use pathlib for robust path handling	Relative paths work but could be more robust	STATUS=NOT_APPLIED - Current relative paths work correctly and are documented; no need to add pathlib complexity
+DOC	README.md	line 33	Assignment_1_supplement/	Update folder structure to reflect actual structure	Documentation refers to non-existent folder name	STATUS=APPLIED
+DOC	README.md	line 57	cd Assignment_1_supplement/code	Update to cd code/	Documentation refers to non-existent folder name	STATUS=APPLIED
+DOC	README.md	lines 62-64	assignment_1_1_1.ipynb, assignment_1_1_2.ipynb, assignment_1_2.ipynb	Update to new filenames after rename	Filenames will change	STATUS=APPLIED
+DOC	README.md	line 88	../Assignment_1_supplement/	Remove reference to legacy path	Documentation mentions legacy path	STATUS=APPLIED
+DOC	README.md	line 93	Originally created in an academic setting	Remove or soften this language	Unnecessary academic attribution	STATUS=APPLIED
