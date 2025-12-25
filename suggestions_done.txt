@@ -1,0 +1,23 @@
+FILELOCATORBEFORE_SNIPPETAFTER_SNIPPETNOTES
+code/assignment_1_1_1.ipynbfilenameassignment_1_1_1.ipynbpca_implementation.ipynbRenamed to remove "assignment" prefix and use descriptive professional name
+code/assignment_1_1_2.ipynbfilenameassignment_1_1_2.ipynbmissing_data_imputation.ipynbRenamed to remove "assignment" prefix and use descriptive professional name
+code/assignment_1_2.ipynbfilenameassignment_1_2.ipynbknn_imputation.ipynbRenamed to remove "assignment" prefix and use descriptive professional name
+code/pca_implementation.ipynb cell[0] (markdown)# Processing of Biological Data\n**Prof. Dr. Volkhard Helms**\n**Tutor:** Hanah Robertson# PCA Implementation and Analysis\n\nImplementation of Principal Component Analysis...Removed professor/tutor names and academic header
+code/pca_implementation.ipynb cell[1] (markdown)# Assignment 1.1 – Principal Component Analysis# Principal Component Analysis (PCA)Removed "Assignment" language
+code/pca_implementation.ipynb cell[18] (markdown)# answers for Exercise 1.1 (PCA)# Results and AnalysisRemoved "Exercise" and "answers" language
+code/missing_data_imputation.ipynb cell[0] (markdown)# Processing of Biological Data\n**Prof. Dr. Volkhard Helms**\n**Tutor:** Hanah Robertson# Missing Data Imputation Methods\n\nImplementation of distribution-based imputation...Removed professor/tutor names and academic header
+code/missing_data_imputation.ipynb cell[1] (markdown)# Assignment 1.2 – Data Imputation# Distribution-Based Missing Data ImputationRemoved "Assignment" language
+code/missing_data_imputation.ipynb cell[12] (markdown)The questions from the assignment:Exploring the impact of different parameters...Removed "assignment" language
+code/missing_data_imputation.ipynb cell[14] (markdown)# answers for Exercise 1.2 (Data Imputation)# Results and DiscussionRemoved "Exercise" and "answers" language
+code/knn_imputation.ipynb cell[0] (markdown)# Processing of Biological Data\n**Prof. Dr. Volkhard Helms**\n**Tutor:** Hanah Robertson# k-Nearest Neighbor (kNN) Imputation\n\nImplementation of k-Nearest Neighbor imputation...Removed professor/tutor names and academic header
+code/knn_imputation.ipynb cell[1] (markdown)# Assignment – k-Nearest Neighbor (kNN) Imputation# k-Nearest Neighbor (kNN) ImputationRemoved "Assignment" language
+code/knn_imputation.ipynb cell[13] (markdown)# answers for Exercise 1.2 — kNN vs Distribution# kNN vs Distribution-Based Imputation: ComparisonRemoved "Exercise" and "answers" language
+README.md line 33Assignment_1_supplement/pca-and-missing-data-imputation/Updated folder structure to reflect actual repository structure
+README.md line 36-38assignment_1_1_1.ipynb, assignment_1_1_2.ipynb, assignment_1_2.ipynbpca_implementation.ipynb, missing_data_imputation.ipynb, knn_imputation.ipynbUpdated notebook filenames
+README.md line 57cd Assignment_1_supplement/codejupyter notebook (from root or code/)Updated run instructions to remove non-existent folder reference
+README.md line 62-64assignment_*.ipynbpca_implementation.ipynb, missing_data_imputation.ipynb, knn_imputation.ipynbUpdated notebook filenames in usage section
+README.md line 69-70Basic descriptionDetailed description with tab-separated format noteEnhanced data description
+README.md line 74-82Basic output listDetailed output structure with specific file namesEnhanced outputs section with actual generated files
+README.md line 86-89../Assignment_1_supplement/ reference and academic setting noteClean reproducibility notes without legacy pathsRemoved legacy path references and academic attribution
+README.md line 93-95Academic setting notesProfessional notes about statistical methodsRemoved academic language, added professional project description
+.gitignore new fileN/ACreated with Python, Jupyter, IDE, and OS ignoresAdded to exclude checkpoints and cache files

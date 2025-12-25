@@ -1,0 +1,22 @@
+TYPEFILELOCATORBEFORE_SNIPPETPROPOSED_CHANGERATIONALESTATUS
+TRACEcode/assignment_1_1_1.ipynbcell[0] (markdown)# Processing of Biological Data\n**Prof. Dr. Volkhard Helms**\n**Tutor:** Hanah RobertsonRemove professor/tutor names and academic headerAcademic attribution not appropriate for portfolio project_identity.md APPLIED
+TRACEcode/assignment_1_1_1.ipynbcell[1] (markdown)# Assignment 1.1 – Principal Component AnalysisRename to professional title like "# PCA Implementation and Analysis"Remove "Assignment" languageAPPLIED
+TRACEcode/assignment_1_1_1.ipynbcell[18] (markdown)# answers for Exercise 1.1 (PCA)Rename to "# Results and Analysis"Remove "Exercise" and "answers" languageAPPLIED
+TRACEcode/assignment_1_1_2.ipynbcell[0] (markdown)# Processing of Biological Data\n**Prof. Dr. Volkhard Helms**\n**Tutor:** Hanah RobertsonRemove professor/tutor names and academic headerAcademic attribution not appropriate for portfolio project_identity.md APPLIED
+TRACEcode/assignment_1_1_2.ipynbcell[1] (markdown)# Assignment 1.2 – Data ImputationRename to "# Missing Data Imputation Methods"Remove "Assignment" languageAPPLIED
+TRACEcode/assignment_1_1_2.ipynbcell[12] (markdown)The questions from the assignment:Remove or rephrase to "Parameter sensitivity analysis:"Remove "assignment" languageAPPLIED
+TRACEcode/assignment_1_1_2.ipynbcell[14] (markdown)# answers for Exercise 1.2 (Data Imputation) — DiscussionRename to "# Results and Discussion"Remove "Exercise" and "answers" languageAPPLIED
+TRACEcode/assignment_1_2.ipynbcell[0] (markdown)# Processing of Biological Data\n**Prof. Dr. Volkhard Helms**\n**Tutor:** Hanah RobertsonRemove professor/tutor names and academic headerAcademic attribution not appropriate for portfolio project_identity.md APPLIED
+TRACEcode/assignment_1_2.ipynbcell[1] (markdown)# Assignment – k-Nearest Neighbor (kNN) ImputationRename to "# k-Nearest Neighbor (kNN) Imputation"Remove "Assignment" languageAPPLIED
+TRACEcode/assignment_1_2.ipynbcell[13] (markdown)# answers for Exercise 1.2 — kNN vs Distribution: ComparisonRename to "# kNN vs Distribution-Based Imputation: Comparison"Remove "Exercise" and "answers" languageAPPLIED
+RENAMEcode/assignment_1_1_1.ipynbfilenameassignment_1_1_1.ipynbpca_implementation.ipynbRemove "assignment" prefix, use descriptive professional nameAPPLIED
+RENAMEcode/assignment_1_1_2.ipynbfilenameassignment_1_1_2.ipynbmissing_data_imputation.ipynbRemove "assignment" prefix, use descriptive professional nameAPPLIED
+RENAMEcode/assignment_1_2.ipynbfilenameassignment_1_2.ipynbknn_imputation.ipynbRemove "assignment" prefix, use descriptive professional nameAPPLIED
+PATHcode/assignment_1_1_1.ipynbcell[5] (code) line 1input_file_pca = "../data/pca_toy.txt"Use pathlib for robust path handlingRelative paths work but could be more robustNOT_APPLIED - Current relative paths work correctly and are documented; no need to add pathlib complexity
+PATHcode/assignment_1_1_2.ipynbcell[5] (code) line 1input_file_ms = "../data/ms_toy.txt"Use pathlib for robust path handlingRelative paths work but could be more robustNOT_APPLIED - Current relative paths work correctly and are documented; no need to add pathlib complexity
+PATHcode/assignment_1_2.ipynbcell[5] (code) line 1input_file_ms = "../data/ms_toy.txt"Use pathlib for robust path handlingRelative paths work but could be more robustNOT_APPLIED - Current relative paths work correctly and are documented; no need to add pathlib complexity
+DOCREADME.mdline 33Assignment_1_supplement/Update folder structure to reflect actual structureDocumentation refers to non-existent folder nameAPPLIED
+DOCREADME.mdline 57cd Assignment_1_supplement/codeUpdate to cd code/Documentation refers to non-existent folder nameAPPLIED
+DOCREADME.mdlines 62-64assignment_1_1_1.ipynb, assignment_1_1_2.ipynb, assignment_1_2.ipynbUpdate to new filenames after renameFilenames will changeAPPLIED
+DOCREADME.mdline 88../Assignment_1_supplement/Remove reference to legacy pathDocumentation mentions legacy pathAPPLIED
+DOCREADME.mdline 93Originally created in an academic settingRemove or soften this languageUnnecessary academic attributionAPPLIED
