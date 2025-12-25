@@ -96,3 +96,99 @@ Current paths are FUNCTIONAL:
 
 All findings logged to suggestion.txt before making changes.
 
+
+## Phase 3 - Portfolio-Readiness Changes
+
+### 3.1 Notebook File Renaming (COMPLETED)
+**Changes Applied:**
+- `assignment_1_1_1.ipynb` → `pca_implementation.ipynb`
+- `assignment_1_1_2.ipynb` → `missing_data_imputation.ipynb`
+- `assignment_1_2.ipynb` → `knn_imputation.ipynb`
+
+**Verification:**
+- All references updated in README.md
+- Files successfully renamed using `mv` command
+- No broken references remain
+
+### 3.2 Notebook Content Updates (COMPLETED)
+**Changes Applied to All 3 Notebooks:**
+
+**pca_implementation.ipynb:**
+- Cell 0: Removed professor/tutor names → "PCA Implementation and Analysis"
+- Cell 1: "Assignment 1.1" → "Principal Component Analysis (PCA)"
+- Cell 18: "answers for Exercise" → "Results and Analysis"
+
+**missing_data_imputation.ipynb:**
+- Cell 0: Removed professor/tutor names → "Missing Data Imputation Methods"
+- Cell 1: "Assignment 1.2" → "Distribution-Based Missing Data Imputation"
+- Cell 12: "questions from the assignment" → "Parameter Sensitivity Analysis"
+- Cell 14: "answers for Exercise" → "Results and Discussion"
+
+**knn_imputation.ipynb:**
+- Cell 0: Removed professor/tutor names → "k-Nearest Neighbor (kNN) Imputation"
+- Cell 1: "Assignment" → "k-Nearest Neighbor (kNN) Imputation"
+- Cell 13: "answers for Exercise" → "kNN vs Distribution-Based Imputation: Comparison"
+
+**Method:**
+- Used Python script with json module to safely modify notebook JSON
+- Preserved all code cells and execution state
+- Only modified markdown cell text content
+
+### 3.3 README.md Updates (COMPLETED)
+**Changes Applied:**
+- Updated folder structure diagram (removed "Assignment_1_supplement" references)
+- Updated notebook filenames in all sections (3 files renamed)
+- Enhanced "How to Run" with flexible execution options
+- Improved "Data/Inputs" section with detailed descriptions
+- Expanded "Outputs" section with specific file names
+- Updated "Reproducibility Notes" (removed legacy path references and academic language)
+- Updated "Troubleshooting" with better guidance
+- Improved "Notes" section with professional project description
+
+**Before/After Sample:**
+- Before: `cd Assignment_1_supplement/code`
+- After: `jupyter notebook` (from root or code directory)
+
+### 3.4 .gitignore Creation (COMPLETED)
+**Created new .gitignore file with:**
+- Python cache files (`__pycache__/`, `*.pyc`)
+- Jupyter checkpoints (`.ipynb_checkpoints/`)
+- Virtual environments (`venv/`, `env/`)
+- IDE files (`.vscode/`, `.idea/`)
+- OS files (`.DS_Store`, `Thumbs.db`)
+- Temporary files (`*.tmp`, `*.bak`, `*.log`)
+
+**Rationale:** Prevents committing unnecessary files that are auto-generated or environment-specific
+
+### 3.5 Path Handling Decision (NO CHANGES)
+**Decision:** Keep existing relative paths (`../data/`)
+**Rationale:**
+- Current paths work correctly when notebooks run from `code/` directory
+- Relative paths are well-documented in README
+- No absolute paths or brittle Windows/Unix paths found
+- Adding pathlib would increase complexity without adding value
+- Documentation now clearly explains path expectations
+
+**Status in suggestion.txt:** All PATH items marked NOT_APPLIED with justification
+
+### 3.6 Verification Plan
+**Next Steps:**
+1. Verify notebooks can be opened in Jupyter
+2. Verify data files can be loaded
+3. Run a sample cell from each notebook to confirm functionality
+4. Check that no import errors occur
+
+### 3.7 Ledger Summary
+**suggestion.txt Status:**
+- 10 TRACE items: APPLIED ✓
+- 3 RENAME items: APPLIED ✓
+- 5 DOC items: APPLIED ✓
+- 3 PATH items: NOT_APPLIED (with justification) ✓
+- Total: 21 issues documented, 18 applied, 3 skipped with reason
+
+**suggestions_done.txt:**
+- 3 file renames logged
+- 10 notebook cell updates logged
+- 9 README.md changes logged
+- 1 .gitignore creation logged
+- Total: 23 changes documented with before/after
