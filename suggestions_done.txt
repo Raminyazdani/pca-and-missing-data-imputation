@@ -1,4 +1,4 @@
-FILE	LOCATOR	BEFORE_SNIPPET	AFTER_SNIPPET	NOTES
+FILELOCATORBEFORE_SNIPPETAFTER_SNIPPETNOTES
 code/assignment_1_1_1.ipynbfilenameassignment_1_1_1.ipynbpca_implementation.ipynbRenamed to remove "assignment" prefix and use descriptive professional name
 code/assignment_1_1_2.ipynbfilenameassignment_1_1_2.ipynbmissing_data_imputation.ipynbRenamed to remove "assignment" prefix and use descriptive professional name
 code/assignment_1_2.ipynbfilenameassignment_1_2.ipynbknn_imputation.ipynbRenamed to remove "assignment" prefix and use descriptive professional name
