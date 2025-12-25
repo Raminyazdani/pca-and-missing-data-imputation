@@ -1,0 +1,2 @@
+method,scope,n_neighbors,weights,n_rows_full,n_rows_kept_for_knn,n_rows_dropped_all_three_missing,orig_nonmissing_n,orig_mean,orig_std_sample,total_values_after,n_imputed,imputed_fraction,mean_after,std_after_sample,min_after,max_after,p25_after,p50_after,p75_after,histogram_path
+knn,kept_rows_only,9,distance,6960,6733,227,6373,29.036041174810997,2.739044057746736,6733,360,0.05346799346502302,28.821870073636298,2.827167930240116,21.3806808888736,37.8892714574961,26.706882544578,28.7571634187876,30.8039356418187,ctrl1_knn_imputation_hist.png
