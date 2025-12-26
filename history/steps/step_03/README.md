@@ -1,26 +1,35 @@
-# PCA and Missing Data Imputation Study
+# PCA and Missing Data Imputation
 
-**Statistical methods for PCA and missing value estimation**
+Statistical methods for dimensionality reduction and missing value estimation.
 
 ## Overview
 
-This project implements Principal Component Analysis (PCA) and missing data imputation techniques for biological data analysis.
-
-## Project Goals
-
-- Implement PCA from scratch and using scikit-learn
-- Develop missing data imputation algorithms
-- Compare imputation strategies
-- Validate results on toy datasets
+This project implements:
+- Principal Component Analysis (PCA) for dimensionality reduction
+- Multiple missing data imputation techniques
 
 ## Tech Stack
 
 - Python 3.x
 - Jupyter Notebook
-- NumPy
-- scikit-learn
-- Matplotlib
+- NumPy, Pandas, Matplotlib, scikit-learn
+
+## Setup
+
+```bash
+pip install requirements.txt
+```
+
+## Structure
+
+```
+pca-and-missing-data-imputation/
+├── data/              # Datasets
+├── code/              # Analysis notebooks
+├── requirements.txt   # Python dependencies
+└── README.md         # This file
+```
 
 ## Status
 
-Project in development.
+Project under development.
