@@ -1,1 +1,1 @@
-# Placeholder for Python dependencies
+# Dependencies will be added as needed
